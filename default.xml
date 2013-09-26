@@ -8,6 +8,9 @@
   <remote  name="aokp"
            fetch="https://github.com/"
            review="gerrit.aokp.co" />
+           
+  <remote  name="cvm"
+           fetch="https://github.com/ValidusCM" />
 
   <remote  name="cm"
            fetch="https://github.com/"
@@ -300,7 +303,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb-mr2" groups="pdk" />
-  <project path="frameworks/base" name="DirtyUnicorns422/frameworks_base" remote="aokp" revision="DU43" />
+  <project path="frameworks/base" name="frameworks_base" remote="cvm" revision="cvm" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
